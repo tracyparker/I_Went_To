@@ -1,5 +1,30 @@
+img {
+min-height:300px;
+min-width: 300px;
+}
+body {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+
+}
+body {
+ /*Background downloaded from http://ahnganu.com/images/tie-dye-free-download-wallpaper-nq510/tie-dye-free-download-wallpaper-tst21 */
+
+   margin: 0;
+   background-size: 60%;
+   background-position: right;
+   background-repeat: no-repeat;
+   background-color: black;
+
+
+}
+
+.state {
+  color: red;
+}
+
 html,
-body,
 div,
 h1,
 h2,
@@ -16,6 +41,7 @@ section {
 
 /**Made a class for the opening line and styled it. (stp)**/
 .headline {
+text-indent: 2%;
   font-size: 6em;
   font-weight: bold;
   font-style: italic;
@@ -34,15 +60,10 @@ section {
   display: block;
 }
 
-body {
-  background: black;
-  padding: 50px 0 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 62.5%;
-}
 
 
 h2 {
+  text-indent: 2%;
   font-size: 1.6em;
   font-weight: bold;
   color: #384047;
@@ -51,11 +72,12 @@ h2 {
 
 h3 {
   font-size: 1.6em;
+  text-indent: 2%;
 }
 
 /*Added story_text class styles (stp)*/
 .story_text {
-  font-size: 2.6em;
+  font-size: 2.2em;
   font-style: italic;
   font-family: serif;
   margin: 5%;
@@ -63,21 +85,24 @@ h3 {
 
 }
 
-/*p {
+p {
   color: #8d9aa5;
   font-size: 1.4em;
   margin-bottom: 15px;
   line-height: 1.4;
-}*/
+}
 
 /*Changed width (stp)*/
 .container {
+  z-index: 99999;
   box-sizing: border-box;
-  width: 50%;
-  max-width: 1080px;
+  width: 400%;
+  max-width: 50%;
   background: white;
-  padding: 30px 15px;
-  margin: 0 auto;
+  padding-top: 15px;
+margin-left: 7%;
+margin-top: -54%;
+
   position: relative;
   overflow: hidden;
   border-radius: 5px;
