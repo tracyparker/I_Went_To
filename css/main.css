@@ -20,9 +20,6 @@ body {
 
 }
 
-.state {
-  color: red;
-}
 
 html,
 div,
@@ -100,8 +97,8 @@ p {
   max-width: 50%;
   background: white;
   padding-top: 15px;
-margin-left: 7%;
-margin-top: -54%;
+  margin-left: 12%;
+  margin-top: -53%;
 
   position: relative;
   overflow: hidden;
